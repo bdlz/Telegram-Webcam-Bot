@@ -9,6 +9,7 @@ import telepot
 from telepot.loop import MessageLoop
 from telepot.namedtuple import InlineKeyboardMarkup, InlineKeyboardButton
 
+
 def on_chat_message(msg):
     try:
         username = msg.get('from').get('username')
